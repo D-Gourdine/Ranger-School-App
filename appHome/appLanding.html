@@ -4,11 +4,12 @@
 <head>
     <link rel="stylesheet" href="../styles.css">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script type = "text/javascript" src="hideShow.js"></script>
     <meta charset="UTF-8">
     <title>Ranger School App</title>
 </head>
 
-<body>
+<body><center>
         <img src="../icons/rangerTab.png" alt="App Logo" width="300">
         <h1>School App</h1>
         
@@ -19,23 +20,43 @@
 
         
         <!-- RTT Button -->
-        <a href="rttOverview.html">
+        <a href="../rtts/rttPractice.html">
         <button type="button">Ranger Tactical Tasks (RTTs)</button>
         </a><br>
     
 
         <!-- Digital Handbook Button -->
-        <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN3039-TC_3-21.76-000-WEB-1.pdf"
-        target="_blank">
-        <button type="button">Digital Ranger Handbook</button>
-        </a><br>
+    
 
-
-        <!-- RTT List PDF -->
-        <a href="https://home.army.mil/campbell/application/files/3615/8108/9405/Ranger_Tactical_Tasks_List.pdf"
-        target="_blank">
-        <button type="button">RTT List PDF</button>
+        <button 
+        onclick="myFunction('digital_RangerHandbook')"
+        type="button">Digital Ranger Handbook</button>
         </a>
     <br>
+
+        <iframe src= 
+    "../pdfs\appLanding_pdfs\Digital_Ranger_Handbook.pdf" style="display:none;height:700px;width: min(95%, 2000px);padding:2px"
+    id="digital_RangerHandbook"> 
+    </iframe>
+        
+        <!-- RTT List PDF -->
+        <button 
+        onclick="myFunction('appLanding_RTTListPDF')"
+        type="button">RTT List PDF</button>
+        </a>
+    <br>
+
+
+    <!--Ranger Tactical Tasks Pdf: Opened on button action -->
+
+    <!-- <center>
+        <embed src="misc\Ranger_Tactical_Tasks_List.pdf#toolbar=1&navpanes=1&scrollbar=1" width="100%" height="1000"> 
+    </center> -->
+
+    <iframe src= 
+    "../pdfs\appLanding_pdfs\Ranger_Tactical_Tasks_List.pdf"  style="display:none;height:700px;width: min(95%, 2000px);padding:2px"
+    id="appLanding_RTTListPDF"> 
+    </iframe>
+</center>     
 </body>
 </html>
