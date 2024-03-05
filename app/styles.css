@@ -1,6 +1,21 @@
 body {background-color: lightgrey;font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";}
 h1 {text-align: center;}
-p {text-align: left;}
+p {text-align: left;
+    margin: auto;
+    width: 60%;
+    padding: 10px;}
+ol {text-align: left;
+    margin: auto;
+    width: 55%;
+    padding: 10px;}
+.ol2 {text-align: left;
+    margin: auto;
+    width: 90%;
+    padding: 10px;}
+ul {text-align: left;
+    margin: auto;
+    width: 55%;
+    padding: 10px;}
 div {text-align: center;}
 img {
     display: block;
