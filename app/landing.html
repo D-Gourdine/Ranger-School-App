@@ -9,53 +9,45 @@
     <title>Ranger School App</title>
 </head>
 
-<body><center>
-        <img src="icons/rangerTab.png" alt="App Logo" width="300">
+<body>
+<center>
+    <img src="icons/rangerTab.png" alt="App Logo" width="300">
 
+    <h1>School App</h1>
+    </a><br>
 
-        <h1>School App</h1>
-        </a><br>
+    <!-- About Ranger School Button -->
+    <a href="about/aboutRangerSchool.html">
+    <button type="button">About Ranger School</button>
+    </a><br>
 
-        <!-- About Ranger School Button -->
-        <a href="about/aboutRangerSchool.html">
-        <button type="button">About Ranger School</button>
-        </a><br>
-
-        
-        <!-- RTT Button -->
-        <a href="rtts/rttOverview.html">
-        <button type="button">Ranger Tactical Tasks (RTTs)</button>
-        </a><br>
     
+    <!-- RTT Button -->
+    <a href="rtts/rttOverview.html">
+    <button type="button">Ranger Tactical Tasks (RTTs)</button>
+    </a><br>
 
-        <!-- Digital Handbook Button -->
-        <button 
-        onclick="myFunction('digital_RangerHandbook')"
-        type="button">Digital Ranger Handbook</button>
-        </a><br>
 
-        <iframe src= 
-    "pdfs/Digital_Ranger_Handbook.pdf" style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
-    id="digital_RangerHandbook"> 
+    <!-- Digital Handbook Button -->
+    <button 
+    onclick="myFunction('digital_RangerHandbook')"
+    type="button">Digital Ranger Handbook</button>
+    </a><br>
+
+    <iframe src= "pdfs/Digital_Ranger_Handbook.pdf"
+            style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
+            id="digital_RangerHandbook"> 
     </iframe>
-        
-        <!-- RTT List PDF -->
-        <button 
-        onclick="myFunction('appLanding_RTTListPDF')"
-        type="button">RTT List PDF</button>
-        </a>
-    <br>
+    
+    <!-- RTT List PDF -->
+    <button 
+    onclick="myFunction('appLanding_RTTListPDF')"
+    type="button">RTT List PDF</button>
+    </a>
 
-
-    <!--Ranger Tactical Tasks Pdf: Opened on button action -->
-
-    <!-- <center>
-        <embed src="misc\Ranger_Tactical_Tasks_List.pdf#toolbar=1&navpanes=1&scrollbar=1" width="100%" height="1000"> 
-    </center> -->
-
-    <iframe src= 
-    "pdfs/Ranger_Tactical_Tasks_List.pdf"  style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
-    id="appLanding_RTTListPDF"> 
+    <iframe src= "pdfs/Ranger_Tactical_Tasks_List.pdf"  
+            style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
+            id="appLanding_RTTListPDF"> 
     </iframe>
 
 </center>     
