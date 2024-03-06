@@ -38,5 +38,34 @@
     </a>
     </center>
 <br>
+
+
+<div>
+    <button id="button" type="button"
+            onclick="alert('Button was clicked!');">My Button</button>
+  
+    <br /><br />
+    <button onclick="toggle();">Toggle hidden</button>
+  </div>
+  
+  <script>
+    let toggle = () => {
+  
+      let element = document.getElementById("button");
+      let hidden = element.getAttribute("hidden");
+  
+      if (hidden) {
+         element.removeAttribute("hidden");
+      } else {
+         element.setAttribute("hidden", "hidden");
+      }
+    }
+  </script>
+  
+
+
+
+
+
 </body>
 </html>
