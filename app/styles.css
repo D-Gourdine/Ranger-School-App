@@ -63,6 +63,19 @@ button {
     margin-top: 10px;
 }
 
+.button2 {
+    background-color: #F2BE19;
+    float: left;
+    width: 27%;
+    height: 200px;
+    border-spacing: 2%;
+    margin: 3% 3% 3%;
+    display: block;
+
+    
+}
+
+
 button:focus:not(:focus-visible):not(.focus-visible) {
     box-shadow: none;
     outline: none;
@@ -89,3 +102,48 @@ button:active {
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
+
+  .column {
+    background-color: #F2BE19;
+    float: left;
+    width: 27%;
+    height: 200px;
+    border-spacing: 2%;
+    margin: 3% 3% 3%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+        background-color: #F2BE19;
+        float: left;
+        width: 40%;
+        height: 200px;
+        border-spacing: 3%;
+        margin: 3% 5% 3%;
+    }
+    .button2 {
+        background-color: #F2BE19;
+        float: left;
+        width: 40%;
+        height: 200px;
+        border-spacing: 3%;
+        margin: 3% 5% 3%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+        background-color: #F2BE19;
+        width: 90%;
+        margin: 3% 5% 3%;
+
+    }
+    .button2 {
+        background-color: #F2BE19;
+        width: 90%;
+        margin: 3% 5% 3%;
+
+    }
+  }
