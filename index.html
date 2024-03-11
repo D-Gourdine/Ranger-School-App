@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script type = "text/javascript" src="hideShow.js"></script>
+    <meta charset="UTF-8">
+    <title>Ranger School App</title>
+</head>
+
+<body>
+<center>
+    <img src="icons/rangerTab.png" alt="App Logo" width="300">
+
+    <h1>School App</h1>
+    </a><br>
+
+    <!-- About Ranger School Button -->
+    <a href="about">
+    <button type="button">About Ranger School</button>
+    </a><br>
+
+    
+    <!-- RTT Button -->
+    <a href="rtt">
+    <button type="button">Ranger Task Training (RTT)</button>
+    </a><br>
+
+
+    <!-- Digital Handbook Button -->
+    <button 
+    onclick="myFunction('digital_RangerHandbook')"
+    type="button">Digital Ranger Handbook</button>
+    </a><br>
+
+    <iframe src= "pdfs/Digital_Ranger_Handbook.pdf"
+            style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
+            id="digital_RangerHandbook"> 
+    </iframe>
+    
+    <!-- RTT List PDF -->
+    <button 
+    onclick="myFunction('appLanding_RTTListPDF')"
+    type="button">RTT List PDF</button>
+    </a>
+
+    <iframe src= "pdfs/Ranger_Tactical_Tasks_List.pdf"  
+            style="display:none;height:700px;width: min(80%, 2000px);padding:2px"
+            id="appLanding_RTTListPDF"> 
+    </iframe>
+
+</center>     
+</body>
+</html>
