@@ -1,5 +1,7 @@
 # Ranger-School-App
 
+## Beta app is live at http://159.89.50.73/
+
 Ranger School is one of the toughest training courses for which a Soldier can volunteer. Army Rangers are experts in leading Soldiers on difficult missions - and to do this, they need rigorous training. For more than two months, Ranger students train to exhaustion, pushing the limits of their minds and bodies.
 
 A key task in "RAP" (Ranger Assessment Phase) Week is completing Ranger Task Training, which consists of 5 different events. 
