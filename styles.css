@@ -117,7 +117,7 @@ button:active {
   
 
   /* On screens that are 600px wide or more, go to two columns */
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 800px) {
     .column {
         background-color: #F2BE19;
         width: 40%;
