@@ -69,11 +69,10 @@ button {
 .button2 {
     background-color: #F2BE19;
     float: left;
-    width: 27%;
+    width: 40%;
     height: 200px;
-    border-spacing: 2%;
-    margin: 3% 3% 3%;
-    display: block;
+    border-spacing: 3%;
+    margin: 3% 5% 3%;
 
     
 }
@@ -116,7 +115,7 @@ button:active {
   }
   
   /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 1000px) {
+  @media screen and (min-width: 1000px) {
     .column {
         background-color: #F2BE19;
         float: left;
@@ -128,10 +127,13 @@ button:active {
     .button2 {
         background-color: #F2BE19;
         float: left;
-        width: 40%;
+        width: 27%;
         height: 200px;
-        border-spacing: 3%;
-        margin: 3% 5% 3%;
+        border-spacing: 2%;
+        margin: 3% 3% 3%;
+        display: block;
+
+
     }
   }
   
