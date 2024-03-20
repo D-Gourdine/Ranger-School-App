@@ -132,8 +132,11 @@ button:active {
     }
     .button2 {
         background-color: #F2BE19;
+        float: left;
         width: 40%;
-        margin: 3% 5% 3%;
+        border-spacing: 2%;
+        margin: 3% 3% 3%;
+        display: block;
 
     }
     p {text-align: left;
