@@ -205,21 +205,22 @@ button:active {
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 4px;
   background: #ccc;
 }
 
 .progress-bar {
-  height: 8px;
-  background: #04AA6D;
+  height: 4px;
+  background: #000;
   width: 0%;
 }
 
 .header {
+    transition: 0.2s ease-in-out;
     position: sticky;
     top: 0;
     z-index: 1;
-    width: 100%;
+    /* width: 100%; */
     background-color: lightgrey;
   }
 
