@@ -1,4 +1,5 @@
 body {background-color: lightgrey;font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";}
+/* The pages are built first for mobile devices (<600px width screens) and changes as screens increase below */
 h1 {text-align: center;}
 h2 {text-align: left;
     margin: auto;
@@ -7,15 +8,20 @@ h2 {text-align: left;
 h3 {text-align: left;
     margin: auto;
     width: 60%;}
+iframe {
+    height:40vh;
+    width: 100%;
+    padding:2px
+}
 p {text-align: left;
     margin: auto;
-    width: 60%;
+    width: 100%;
     padding: 10px;}
 
 /* Lists */
 ol {text-align: left;
     margin: auto;
-    width: 55%;
+    width: 95%;
     padding: 10px;}
 ul {text-align: left;
     margin: auto;
@@ -131,6 +137,26 @@ button:active {
         margin: 3% 5% 3%;
 
     }
+    p {text-align: left;
+        margin: auto;
+        width: 70%;
+        padding: 10px;}
+    
+    /* Lists */
+    ol {text-align: left;
+        margin: auto;
+        width: 65%;
+        padding: 10px;}
+    ul {text-align: left;
+        margin: auto;
+        width: 65%;
+        padding: 10px;}
+
+    iframe{
+        height: 40vh;
+        width: 70%;
+        padding:2px
+    }
   }
 
     /* On screens that are 1000px wide or more, go to three columns */
@@ -151,6 +177,26 @@ button:active {
             display: block;
     
     
+        }
+        p {text-align: left;
+            margin: auto;
+            width: 70%;
+            padding: 10px;}
+        
+        /* Lists */
+        ol {text-align: left;
+            margin: auto;
+            width: 65%;
+            padding: 10px;}
+        ul {text-align: left;
+            margin: auto;
+            width: 65%;
+            padding: 10px;}
+
+        iframe{
+            height: 40vh;
+            width: 70%;
+            padding:2px
         }
       }
 
