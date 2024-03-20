@@ -16,25 +16,25 @@ iframe {
 p {text-align: left;
     margin: auto;
     width: 100%;
-    padding: 10px;}
+    padding: 15px;}
 
 /* Lists */
 ol {text-align: left;
     margin: auto;
     width: 95%;
-    padding: 10px;}
+    padding: 20px;}
 ul {text-align: left;
     margin: auto;
     width: 55%;
-    padding: 10px;}
+    padding: 20px;}
 .ol2 {text-align: left;
     margin: auto;
     width: 90%;
-    padding: 10px;}
+    padding: 20px;}
 .ul2 {text-align: left;
     margin: auto;
     width: 90%;
-    padding: 10px;}
+    padding: 20px;}
 
 
 
@@ -151,6 +151,7 @@ button:active {
         margin: auto;
         width: 65%;
         padding: 10px;}
+
 
     iframe{
         height: 40vh;
